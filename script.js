@@ -27,8 +27,8 @@ function foo(values){
         `<div class="card" style="width: 18rem;">
         <img src="${values[i].flags.png}" class="card-img-top" alt="...">
         <div class="card-body">
-          <p class="card-text">Name: ${values[i].name.common}</div>
-          <p class="card-text">countryName: ${values[i].capital}</div>
+          <p class="card-text"><b>Name:</b> ${values[i].name.common}</div>
+          <p class="card-text"><b> &nbsp &nbsp CountryName:</b> ${values[i].capital}</div>
       </div>`
         
         
@@ -40,7 +40,3 @@ function foo(values){
         document.body.append(container);
     }
 }
-
-
-
-
